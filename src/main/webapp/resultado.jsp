@@ -1,9 +1,9 @@
 <html>
 <head>
-<title>JEE IMC</title>
+<title>IMC-José</title>
 </head>
 <body>
-	<h1>JEE IMC</h1>
+	<h1>IMC-José</h1>
 	<h2>Imc - Cálculo do índice de massa corporal</h2>
 	<%
 		//Scriptlet.
@@ -34,7 +34,5 @@
 		<br>
 	<a href="index.jsp">voltar</a>
 	</fieldset>
-	
-	
 </body>
 </html>

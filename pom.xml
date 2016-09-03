@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>imc</groupId>
-	<artifactId>jee-imc</artifactId>
+	<artifactId>imc-jose</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	
@@ -12,7 +12,7 @@
   
 	<build>
 		<!-- Define o nome do pacote final que será gerado. -->
-		<finalName>jee-imc</finalName>
+		<finalName>imc-jose</finalName>
 
 		<plugins>
 
