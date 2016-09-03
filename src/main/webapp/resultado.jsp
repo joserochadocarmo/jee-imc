@@ -5,11 +5,7 @@
 <body>
 	<h1>JEE IMC</h1>
 	<h2>Imc - Cálculo do índice de massa corporal</h2>
-
-	<fieldset>
-		<legend>Resultado:</legend>
-		<hr>
-		<%
+	<%
 		//Scriptlet.
 		String alturaDesc = request.getParameter("altura");
 		float altura = Float.parseFloat(request.getParameter("altura"));
@@ -26,7 +22,10 @@
 			resultado="Acima do peso ideal";
 		}else
 			resultado="Obeso";
-		%>
+	%>
+	<fieldset>
+		<legend>Resultado:</legend>
+		<hr>
 		Altura........: <%=alturaDesc%> m<br>
 		Peso..........: <%=peso%> kg<br>
 		Seu IMC ficou em...........................: <b><%=imc%></b><br>
