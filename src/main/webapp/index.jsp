@@ -9,8 +9,10 @@
 	<form action="resultado.jsp" method="GET">
 		<fieldset>
 			<legend>Informe:</legend>
-			Sua altura: <input type="number" name="altura" required="required" step="any">(metros)<br> 
-			Seu peso:  <input type="number" name="peso" required="required" step="any">(kg)<br>
+			<label>Sua altura</label><br>
+			<input type="number" name="altura" required="required" step="any">(metros)<br> 
+			<label>Seu peso</label><br>
+			<input type="number" name="peso" required="required" step="any">(kg)<br>
 			<button>Calcular</button>
 		</fieldset>
 	</form>
